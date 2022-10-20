@@ -57,10 +57,6 @@ const routes: Routes = [
     path: 'person',
     loadChildren: () => import('./person/person.module').then( m => m.PersonPageModule)
   },
-  {
-    path: '**',
-    loadChildren: () => import('./not-found/not-found.module').then( m => m.NotFoundPageModule)
-  },
 
 ];
 

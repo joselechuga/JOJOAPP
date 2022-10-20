@@ -11,12 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import {HttpClientModule} from '@angular/common/http'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
-
-import {SQLite} from '@ionic-native/sqlite/ngx'
-
-;
-
+import { SQLite } from '@ionic-native/sqlite/ngx';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
