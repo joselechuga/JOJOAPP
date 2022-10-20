@@ -22,12 +22,9 @@
     "@angular/router": "^14.0.0",
     "@awesome-cordova-plugins/geolocation": "^5.46.0",
     "@awesome-cordova-plugins/http": "^5.44.0",
-
     "@awesome-cordova-plugins/native-storage": "^5.46.0",
     "@awesome-cordova-plugins/sqlite-porter": "^5.46.0",
-
     "@capacitor/android": "^4.3.0",
-
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "^4.1.0",
     "@capacitor/haptics": "4.0.1",
@@ -42,7 +39,6 @@
     "cordova-plugin-file": "^7.0.0",
     "cordova-plugin-geolocation": "^4.1.0",
     "cordova-plugin-nativestorage": "^2.3.2",
-
     "cordova-sqlite-storage": "^6.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",

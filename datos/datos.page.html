@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="producto"></ion-back-button>
+    </ion-buttons>
+    <ion-title>datos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!-- 
+  Campos de datos:
+  -albumId
+  -id
+  -title
+  -url
+  -thumbnailUrl
+-->
+  <ion-card *ngFor="let dato of datos">
+    <p>
+      <b>Titulo:</b> {{dato.title}}
+    </p>
+
+    <img src="{{dato.url}}" alt="">
+
+    
+  </ion-card>
+
+</ion-content>
+
